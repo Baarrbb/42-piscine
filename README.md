@@ -15,7 +15,7 @@ C09 100 <br />
 
 # EXAM 
  
-EXAM 00 100 <br />
-EXAM 01 100 <br />
-EXAM 02 90 <br />
+EXAM00 100 <br />
+EXAM01 100 <br />
+EXAM02 90 <br />
 EXAM FINAL 72 <br />

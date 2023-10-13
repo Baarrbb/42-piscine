@@ -10,4 +10,4 @@
 10- count_words \
 11- ft_range \
 12- ft_split \
-13- ft_list_remove_if \
+13- ft_list_remove_if

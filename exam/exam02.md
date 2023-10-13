@@ -7,4 +7,4 @@
 7- title \
 8- count_words \
 9- ft_rrange \
-10- ft_split \
+10- ft_split

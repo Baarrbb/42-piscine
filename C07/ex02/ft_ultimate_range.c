@@ -6,7 +6,7 @@
 /*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/14 19:36:50 by marvin            #+#    #+#             */
-/*   Updated: 2024/01/20 19:11:12 by marvin           ###   ########.fr       */
+/*   Updated: 2024/01/20 19:37:30 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ int	ft_ultimate_range(int **range, int min, int max)
 	{
 		range = NULL;
 		return (0);
-	}	
+	}
 	len = max - min;
 	*range = (int *)malloc(len * sizeof(int));
 	if (*range == NULL)

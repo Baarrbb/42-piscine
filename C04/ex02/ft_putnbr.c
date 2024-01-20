@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bsuc <bsuc@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/10 19:07:34 by bsuc              #+#    #+#             */
-/*   Updated: 2023/09/21 18:43:00 by bsuc             ###   ########.fr       */
+/*   Created: 2023/09/10 19:07:34 by marvin            #+#    #+#             */
+/*   Updated: 2024/01/20 19:06:57 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,20 +43,3 @@ void	ft_putnbr(int nb)
 	else
 		ft_putchar(nb + '0');
 }
-
-/*
-int main()
-{
-	ft_putnbr(0);
-	ft_putchar('\n');
-	ft_putnbr(42);
-	ft_putchar('\n');
-	ft_putnbr(2147483647);
-	ft_putchar('\n');
-	ft_putnbr(-42);
-	ft_putchar('\n');
-	ft_putnbr(-150);
-	ft_putchar('\n');
-	ft_putnbr(-2147483648);
-}
-*/

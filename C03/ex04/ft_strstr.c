@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bsuc <bsuc@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/09 17:29:55 by bsuc              #+#    #+#             */
-/*   Updated: 2023/09/16 13:30:53 by bsuc             ###   ########.fr       */
+/*   Created: 2023/09/09 17:29:55 by marvin            #+#    #+#             */
+/*   Updated: 2024/01/20 19:06:00 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,27 +47,3 @@ char	*ft_strstr(char *str, char *to_find)
 	}
 	return (0);
 }
-
-/*
-#include <stdio.h>
-#include <string.h>
-int main(void)
-{
-	char *test = ft_strstr("42 1337 Network 2021 piscine B", "B");
-	printf("%s\n", test);
-	char *test1 = ft_strstr("piscine Benguerir Khouribga", "ine");
-	printf("%s\n", test1);
-	char *test2 = ft_strstr("The quick brown lazy dog", "dog");
-	printf("%s\n", test2);
-	char *test3 = ft_strstr("42  @1337 Network 2021 piscine", "");
-	printf("%s\n", test3);
-	
-	char *test4 = ft_strstr("42  @1337 Network 2021 piscine", "asdf");
-	printf("%s\n", test4);
-	char *test5 = ft_strstr("", "a");
-	//char *test5 = strstr("", "a");
-	printf("%s\n", test5);
-	char *test6 = ft_strstr("s", "a");
-	printf("%s\n", test6);
-}
-*/

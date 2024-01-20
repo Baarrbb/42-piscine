@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr_non_pritable.c                           :+:      :+:    :+:   */
+/*   ft_putstr_non_printable.c                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bsuc <bsuc@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/08 23:19:28 by bsuc              #+#    #+#             */
-/*   Updated: 2023/09/10 18:46:51 by bsuc             ###   ########.fr       */
+/*   Created: 2023/09/08 23:19:28 by marvin            #+#    #+#             */
+/*   Updated: 2024/01/20 19:05:01 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,17 +43,3 @@ void	ft_putstr_non_printable(char *str)
 		i++;
 	}
 }
-
-/*
-int main(void)
-{
-	ft_putstr_non_printable("Coucou\ntu vas bien");
-	write(1, "\n", 1);
-	ft_putstr_non_printable("");
-	write(1, "\n", 1);
-	ft_putstr_non_printable("\t01");
-	write(1, "\n", 1);
-	ft_putstr_non_printable("\x1F");
-	write(1, "\n", 1);
-}
-*/

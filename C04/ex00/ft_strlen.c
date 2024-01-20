@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bsuc <bsuc@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/10 18:58:12 by bsuc              #+#    #+#             */
-/*   Updated: 2023/09/10 19:02:59 by bsuc             ###   ########.fr       */
+/*   Created: 2023/09/10 18:58:12 by marvin            #+#    #+#             */
+/*   Updated: 2024/01/20 19:06:35 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,13 +19,3 @@ int	ft_strlen(char *str)
 		i++;
 	return (i);
 }
-
-/*
-#include <stdio.h>
-#include <string.h>
-int	main(void)
-{
-	printf("%d\n", ft_strlen(""));
-	printf("%lu\n", strlen(""));
-}
-*/

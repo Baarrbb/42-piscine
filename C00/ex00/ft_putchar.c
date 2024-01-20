@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putchar.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bsuc <bsuc@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/06 14:10:23 by bsuc              #+#    #+#             */
-/*   Updated: 2023/09/07 12:05:08 by bsuc             ###   ########.fr       */
+/*   Created: 2023/09/06 14:10:23 by marvin            #+#    #+#             */
+/*   Updated: 2024/01/20 18:58:27 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,12 +16,3 @@ void	ft_putchar(char c)
 {
 	write(1, &c, 1);
 }
-
-/*
-int main()
-{
-	ft_putchar('c');
-	ft_putchar('x');
-	ft_putchar(' ');
-}
-*/

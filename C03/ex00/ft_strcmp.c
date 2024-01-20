@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bsuc <bsuc@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/09 15:46:00 by bsuc              #+#    #+#             */
-/*   Updated: 2023/09/13 13:34:11 by bsuc             ###   ########.fr       */
+/*   Created: 2023/09/09 15:46:00 by marvin            #+#    #+#             */
+/*   Updated: 2024/01/20 19:05:26 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,16 +19,3 @@ int	ft_strcmp(char *s1, char *s2)
 		i++;
 	return (s1[i] - s2[i]);
 }
-
-/*
-#include <stdio.h>
-#include <string.h>
-int	main(void)
-{
-	char *src = "Hello";
-	char *src1 = strdup("World");
-
-	printf("%d\n", ft_strcmp(src, src1));
-	printf("%d\n", strcmp(src, src1));
-}
-*/

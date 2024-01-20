@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_base.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bsuc <bsuc@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/10 20:32:25 by bsuc              #+#    #+#             */
-/*   Updated: 2023/09/16 15:43:31 by bsuc             ###   ########.fr       */
+/*   Created: 2023/09/10 20:32:25 by marvin            #+#    #+#             */
+/*   Updated: 2024/01/20 19:07:23 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,54 +68,3 @@ void	ft_putnbr_base(int nbr, char *base)
 	nb = base[long_nbr % base_len];
 	write(1, &nb, 1);
 }
-
-/*
-#include <stdio.h>
-int main(void)
-{	
-	ft_putnbr_base(-123, "0123456789abcdef"); //-7B
-	printf("\n");
-	ft_putnbr_base(-123, "012+3456789abcdef"); //rien
-	printf("\n");
-	ft_putnbr_base(-4242, "0123456789abcdef"); //-1092
-	printf("\n");
-	ft_putnbr_base(0, "0123456789abcdef"); //0
-	printf("\n");
-	ft_putnbr_base(-2147483648, "0123456789abcdef"); // -80000000
-	printf("\n");
-	ft_putnbr_base(-2147483648, "01"); //-10000000000000000000000000000000
-	printf("\n");
-	ft_putnbr_base(2147483647, "0123456789abcdef"); // 7FFFFFFF 
-	printf("\n");
-	ft_putnbr_base(2147483647, "01"); //1111111111111111111111111111111
-
-	printf("\n");
-	printf("\n");
-	printf("-1100");
-	ft_putnbr_base(-12, "01");
-	printf("\n");
-	printf("vp");
-	ft_putnbr_base(40, "poneyvif");
-	printf("\n");
-	printf("894867");
-	ft_putnbr_base(894867, "0123456789");
-	printf("\n");
-	printf("35");
-	ft_putnbr_base(53, "0123456789abcdef");
-	printf("\n");
-	printf("0");
-	ft_putnbr_base(0, "01");
-	printf("\n");
-	printf("   ");
-	ft_putnbr_base(123, "");
-	printf("\n");
-	printf("   ");
-	ft_putnbr_base(123, "abccde");
-	printf("\n");
-	printf("7fffffff");
-	ft_putnbr_base(2147483647, "0123456789abcdef");
-	printf("\n");
-	printf("   ");
-	ft_putnbr_base(123, "a");
-}
-*/

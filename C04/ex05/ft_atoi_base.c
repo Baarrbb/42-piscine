@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi_base.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bsuc <bsuc@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/14 17:34:36 by bsuc              #+#    #+#             */
-/*   Updated: 2023/09/20 13:06:34 by bsuc             ###   ########.fr       */
+/*   Created: 2023/09/14 17:34:36 by marvin            #+#    #+#             */
+/*   Updated: 2024/01/20 19:07:35 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -125,35 +125,3 @@ int	ft_atoi_base(char *str, char *base)
 		return (r *= -1);
 	return (r);
 }
-
-/*
-#include <stdio.h>
-int main(void)
-{
-	int i = ft_atoi_base("\t\v  - --7kb", "0123456789abcdef"); 
-	printf("%d\n", i);//0 pcq espace apres le moins
-	i = ft_atoi_base("\t\v  ---7kb", "0123456789abcdef"); //-7
-	printf("%d\n", i);
-	i = ft_atoi_base("\t\v  ---j", "0123456789abcdef"); //0
-	printf("%d\n", i);
-	int j = ft_atoi_base("1092", "0123456789abcdef"); //4242
-	printf("%d\n", j);
-	int b = ft_atoi_base("11", "01"); //3
-	printf("%d\n", b);
-	
-	int c = ft_atoi_base("101101", "01"); // 45
-	printf("%d\n", c);
-	c = ft_atoi_base("   ff", "0123456789abcdef"); //255
-	printf("%d\n", c);
-	c = ft_atoi_base("-10000000000000000000000000000000", "01"); // -2147483648
-	printf("%d\n", c);
-	c = ft_atoi_base("         ---10101001", "01"); // -169
-	printf("%d\n", c);
-	c = ft_atoi_base("     +---59", "0123456789abcdef"); // -89
-	printf("%d\n", c);
-	c = ft_atoi_base("    +-14353", "0123456789"); // -14353
-	printf("%d\n", c);
-	c = ft_atoi_base("    +--2147483647", "0123456789abcdef"); // -14353
-	printf("%d\n", c);
-}
-*/

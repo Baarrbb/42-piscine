@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bsuc <bsuc@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/07 14:59:08 by bsuc              #+#    #+#             */
-/*   Updated: 2023/09/07 17:32:51 by bsuc             ###   ########.fr       */
+/*   Created: 2023/09/07 14:59:08 by marvin            #+#    #+#             */
+/*   Updated: 2024/01/20 19:02:17 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,12 +19,3 @@ int	ft_strlen(char *str)
 		i++;
 	return (i);
 }
-
-/*
-int main(){
-	
-	int nb = ft_strlen("Hello world");
-
-	printf("%d\n", nb);
-}
-*/

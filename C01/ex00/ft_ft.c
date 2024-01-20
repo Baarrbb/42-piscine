@@ -3,30 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_ft.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bsuc <bsuc@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/07 12:44:00 by bsuc              #+#    #+#             */
-/*   Updated: 2023/09/11 12:08:21 by bsuc             ###   ########.fr       */
+/*   Created: 2023/09/07 12:44:00 by marvin            #+#    #+#             */
+/*   Updated: 2024/01/20 19:01:12 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 void	ft_ft(int *nbr)
 {
 	*nbr = 42;
-}
-
-
-int main()
-{
-	//int nb = 0;
-	//ft_ft(&nb);
-	//printf("%d\n", nb);
-
-	int	*nbr = 42;
-	printf("%d\n", nbr);
-	
-	/*int	number = 33;
-	nbr = &number;
-	ft_ft(nbr);
-	printf("%d\n", *nbr);*/
 }

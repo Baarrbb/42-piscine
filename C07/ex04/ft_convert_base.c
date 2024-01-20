@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_convert_base.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bsuc <bsuc@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/17 16:59:20 by bsuc              #+#    #+#             */
-/*   Updated: 2023/09/20 16:48:21 by bsuc             ###   ########.fr       */
+/*   Created: 2023/09/17 16:59:20 by marvin            #+#    #+#             */
+/*   Updated: 2024/01/20 19:11:43 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,47 +83,3 @@ char	*ft_convert_base(char *nbr, char *base_from, char *base_to)
 	res = ft_putnbr_base(entier, base_to);
 	return (res);
 }
-
-/*
-int main(void)
-{
-	char *res = ft_convert_base("-55555", "0123456789", "0123456789abcdef");
-	printf("-d903 -> %s\n", res);
-	res = ft_convert_base("42", "0123456789", "01");
-	printf("101010 -> %s\n", res);
-	res = ft_convert_base("-42", "0123456789", "01");
-	printf("-101010 -> %s\n", res);
-	res = ft_convert_base("101010", "01", "0123456789abcdef");
-	printf("2a -> %s\n", res);
-	res = ft_convert_base("-2147483648", "0123456789", "01");
-	printf("-10000000000000000000000000000000 -> %s\n", res);
-	res = ft_convert_base("2147483647", "0123456789", "01");
-	printf("1111111111111111111111111111111 -> %s\n", res);
-	res = ft_convert_base("-2147483648", "0123456789", "0123456789abcdef");
-	printf("-80000000 -> %s\n", res);
-	res = ft_convert_base("2147483647", "0123456789", "0123456789abcdef");
-	printf("7FFFFFFF -> %s\n", res);
-
-	res = ft_convert_base("-42", "0123456789", "012a3456789abcdef");
-	printf("null -> %s\n", res);
-	res = ft_convert_base("-42", "012345678 9", "0123456789abcdef");
-	printf("null -> %s\n", res);
-
-	res = ft_convert_base("--42", "0123456789", "0123456789abcdef");
-	printf("2a -> %s\n", res);
-	res = ft_convert_base("	  -42", "0123456789", "0123456789abcdef");
-	printf("-2a -> %s\n", res);
-
-	res = ft_convert_base("  - -42", "0123456789", "0123456789abcdef");
-	printf("0 -> %s\n", res);
-	res = ft_convert_base("	  -----++4j2", "0123456789", "0123456789abcdef");
-	printf("-4 -> %s\n", res);
-
-	res = ft_convert_base("	  -0", "0123456789", "0123456789abcdef");
-	printf("0 -> %s\n", res);
-	
-	
-	if(res != NULL)
-		free(res);
-}
-*/

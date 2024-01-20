@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bsuc <bsuc@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/17 16:10:21 by bsuc              #+#    #+#             */
-/*   Updated: 2023/09/24 12:42:11 by bsuc             ###   ########.fr       */
+/*   Created: 2023/09/17 16:10:21 by marvin            #+#    #+#             */
+/*   Updated: 2024/01/20 19:11:29 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -105,20 +105,3 @@ char	*ft_strjoin(int size, char **strs, char *sep)
 	}
 	return (res);
 }
-
-/*
-#include <stdio.h>
-int main(void)
-{
-	char *str[] = { "Hello", "world" };
-	char *sep = "";
-
-	char *res = ft_strjoin(2, str, sep);
-	printf("%s\n", res);
-
-	if (res != NULL)
-		free(res);
-	return (0);
-
-}
-*/

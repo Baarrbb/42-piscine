@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bsuc <bsuc@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/14 19:24:19 by bsuc              #+#    #+#             */
-/*   Updated: 2023/09/22 14:01:45 by bsuc             ###   ########.fr       */
+/*   Created: 2023/09/14 19:24:19 by marvin            #+#    #+#             */
+/*   Updated: 2024/01/20 19:10:49 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,15 +41,3 @@ char	*ft_strdup(char *src)
 	s[i] = '\0';
 	return (s);
 }
-
-/*
-#include <stdio.h>
-int main()
-{
-	char *s = ft_strdup("test");
-	printf("%s\n", s);
-	if (s != NULL)
-		free(s); 
-	return (0);
-}
-*/

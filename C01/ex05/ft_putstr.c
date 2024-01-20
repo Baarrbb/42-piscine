@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bsuc <bsuc@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/07 14:50:53 by bsuc              #+#    #+#             */
-/*   Updated: 2023/09/07 17:19:59 by bsuc             ###   ########.fr       */
+/*   Created: 2023/09/07 14:50:53 by marvin            #+#    #+#             */
+/*   Updated: 2024/01/20 19:02:09 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,12 +20,3 @@ void	ft_putstr(char *str)
 	while (str[i] != '\0')
 		write(1, &str[i++], 1);
 }
-
-/*
-int main()
-{
-	char *str = "hello world";
-	//char *str = "";
-	ft_putstr(str);
-}
-*/

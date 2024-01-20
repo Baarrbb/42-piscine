@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_range.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bsuc <bsuc@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/14 19:29:01 by bsuc              #+#    #+#             */
-/*   Updated: 2023/09/23 18:47:16 by bsuc             ###   ########.fr       */
+/*   Created: 2023/09/14 19:29:01 by marvin            #+#    #+#             */
+/*   Updated: 2024/01/20 19:11:02 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,27 +33,3 @@ int	*ft_range(int min, int max)
 	}
 	return (tab);
 }
-
-/*
-#include <stdio.h>
-int	main()
-{
-	int *tab = ft_range(0, 10);
-	unsigned long i = 0;
-	if(tab == NULL){
-		printf("null\n");
-		return 0;
-	}
-		
-	
-	while (i < 10)
-	{
-		printf("%d ", tab[i]);
-		i++;
-	}
-
-	if (tab != NULL)
-		free(tab);
-	return 0;
-}
-*/

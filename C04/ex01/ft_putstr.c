@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bsuc <bsuc@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/10 19:02:47 by bsuc              #+#    #+#             */
-/*   Updated: 2023/09/12 20:37:59 by bsuc             ###   ########.fr       */
+/*   Created: 2023/09/10 19:02:47 by marvin            #+#    #+#             */
+/*   Updated: 2024/01/20 19:06:42 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,11 +20,3 @@ void	ft_putstr(char *str)
 	while (str[i] != '\0')
 		write(1, &str[i++], 1);
 }
-
-/*
-#include <stdio.h>
-int	main(void)
-{
-	printf("%s\n", ft_putstr("Bonjour"));
-}
-*/

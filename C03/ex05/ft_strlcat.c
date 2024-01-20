@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bsuc <bsuc@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/10 14:02:30 by bsuc              #+#    #+#             */
-/*   Updated: 2023/09/16 13:33:24 by bsuc             ###   ########.fr       */
+/*   Created: 2023/09/10 14:02:30 by marvin            #+#    #+#             */
+/*   Updated: 2024/01/20 19:06:10 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,17 +42,3 @@ unsigned int	ft_strlcat(char *dest, char *src, unsigned int size)
 	dest[j] = '\0';
 	return (dest_len + src_len);
 }
-
-/*
-#include <stdio.h>
-#include <string.h>
-#include <bsd/string.h>
-int	main(void)
-{
-	char src[] = "Testt";
-	char dest[] = "Test";
-	printf("%u\n", ft_strlcat(dest, src, 2));
-	//printf("%zu\n", strlcat(dest, src, 2));
-	printf("%s\n", dest);
-}
-*/

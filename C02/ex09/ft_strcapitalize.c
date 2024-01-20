@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strcapitalize.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bsuc <bsuc@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/08 13:23:07 by bsuc              #+#    #+#             */
-/*   Updated: 2023/09/11 12:48:26 by bsuc             ###   ########.fr       */
+/*   Created: 2023/09/08 13:23:07 by marvin            #+#    #+#             */
+/*   Updated: 2024/01/20 19:04:42 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,38 +67,3 @@ char	*ft_strcapitalize(char *str)
 	}
 	return (str);
 }
-
-/*
-#include<stdio.h>
-int main(void)
-{
-	char str[] = "salut, coMMent tu vas ? 42mots quarante-deux; cinquante+et+un";
-	char str1[] = "";
-	char str2[] = "a";
-	char str3[] = "HELLO";
-	char str4[] = "hello";
-	char str5[] = "   hello";
-	char str6[] = "	hello";
-	char str7[] = "hello   ";
-	char str8[] = "hello	";
-	char str9[] = "hello	world";
-	char str10[] = "hello   world";
-	char str11[] = "a1b2c3d4e5f6g7h8i9j0";
-	char str12[] = "!@#$%^&*()_+-=[]{}\\|;':\",./<>?";
-
-	printf("%s\n", ft_str_capitalize(str));
-	printf("%s\n", ft_str_capitalize(str1));
-	printf("%s\n", ft_str_capitalize(str2));
-	printf("%s\n", ft_str_capitalize(str3));
-	printf("%s\n", ft_str_capitalize(str4));
-	printf("%s\n", ft_str_capitalize(str5));
-	printf("%s\n", ft_str_capitalize(str6));
-	printf("%s.\n", ft_str_capitalize(str7));
-	printf("%s.\n", ft_str_capitalize(str8));
-	printf("%s\n", ft_str_capitalize(str9));
-	printf("%s\n", ft_str_capitalize(str10));
-	printf("%s\n", ft_str_capitalize(str11));
-	printf("%s\n", ft_str_capitalize(str12));
-	return (0);
-}
-*/

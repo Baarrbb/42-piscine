@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bsuc <bsuc@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/07 18:27:59 by bsuc              #+#    #+#             */
-/*   Updated: 2023/09/09 12:33:01 by bsuc             ###   ########.fr       */
+/*   Created: 2023/09/07 18:27:59 by marvin            #+#    #+#             */
+/*   Updated: 2024/01/20 19:03:18 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,16 +23,3 @@ char	*ft_strcpy(char *dest, char *src)
 	dest[i] = '\0';
 	return (dest);
 }
-
-/*
-#include <stdio.h>
-
-int main(void)
-{
-	char *src = "";
-	char dest[40]; // = "aaaaaaaaaaa";
-
-	ft_strcpy(dest, src);
-	printf("%s", dest);
-}
-*/

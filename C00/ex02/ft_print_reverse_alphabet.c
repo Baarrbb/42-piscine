@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_reverse_alphabet.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bsuc <bsuc@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/06 14:27:44 by bsuc              #+#    #+#             */
-/*   Updated: 2023/09/07 12:08:54 by bsuc             ###   ########.fr       */
+/*   Created: 2023/09/06 14:27:44 by marvin            #+#    #+#             */
+/*   Updated: 2024/01/20 18:58:57 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,10 +23,3 @@ void	ft_print_reverse_alphabet(void)
 		c--;
 	}
 }
-
-/*
-int main()
-{
-	ft_print_reverse_alphabet();
-}
-*/

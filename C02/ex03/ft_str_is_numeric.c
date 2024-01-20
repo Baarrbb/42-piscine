@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_is_numeric.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bsuc <bsuc@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/07 20:19:14 by bsuc              #+#    #+#             */
-/*   Updated: 2023/09/09 12:42:23 by bsuc             ###   ########.fr       */
+/*   Created: 2023/09/07 20:19:14 by marvin            #+#    #+#             */
+/*   Updated: 2024/01/20 19:03:49 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,15 +23,3 @@ int	ft_str_is_numeric(char *str)
 	}
 	return (1);
 }
-
-/*
-#include <stdio.h>
-
-int main()
-{
-
-	printf("%d\n", ft_str_is_numeric("01948987493"));
-	printf("%d\n", ft_str_is_numeric("0484882j8995489"));
-	printf("%d\n", ft_str_is_numeric("-_jsdsdc67sdlkc,"));
-}
-*/

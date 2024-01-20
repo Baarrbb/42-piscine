@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bsuc <bsuc@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/22 21:11:06 by bsuc              #+#    #+#             */
-/*   Updated: 2023/09/24 12:50:49 by bsuc             ###   ########.fr       */
+/*   Created: 2023/09/22 21:11:06 by marvin            #+#    #+#             */
+/*   Updated: 2024/01/20 19:12:08 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -107,30 +107,3 @@ char	**ft_split(char *str, char *charset)
 	words = malloc_words(words, str, charset);
 	return (words);
 }
-
-/*
-#include <stdio.h>
-int	main()
-{
-	printf("01.Hello: %s\n", ft_split(",,,Hello,,,World,Truc", ",")[0]);
-    printf("02.World: %s\n", ft_split(",,,Hello,,,World,Truc", ",")[1]);
-    printf("03.Truc: %s\n", ft_split(",,,Hello,,,World,Truc", ",")[2]);
-    printf("04.(null): %s\n", ft_split(",,,Hello,,,World,Truc", ",")[3]);
-    
-    
-    printf("05.Hello: %s\n", ft_split("Hello,,,World,Truc", ",")[0]);
-    printf("06.World: %s\n", ft_split("Hello,,,World,Truc", ",")[1]);
-    printf("07.Truc: %s\n", ft_split("Hello,,,World,Truc", ",")[2]);
-    printf("08.(null): %s\n", ft_split("Hello,,,World,Truc", ",")[3]);
-    
-    printf("09.Hello: %s\n", ft_split(",,,Hello,,,World,Truc,,,", ",")[0]);
-    printf("10.World: %s\n", ft_split(",,,Hello,,,World,Truc,,,", ",")[1]);
-    printf("11.Truc: %s\n", ft_split(",,,Hello,,,World,Truc,,,", ",")[2]);
-    printf("12.(null): %s\n", ft_split(",,,Hello,,,World,Truc,,,", ",")[3]);
-    
-    
-    printf("13.(null): %s\n", ft_split(",,,", ",")[0]);
-    printf("14.(null): %s\n", ft_split("", ",")[0]);
-    printf("15.Hello: %s\n", ft_split("Hello", ",")[0]);
-}
-*/

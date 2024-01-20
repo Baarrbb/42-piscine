@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_is_uppercase.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bsuc <bsuc@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/07 20:35:31 by bsuc              #+#    #+#             */
-/*   Updated: 2023/09/10 18:44:38 by bsuc             ###   ########.fr       */
+/*   Created: 2023/09/07 20:35:31 by marvin            #+#    #+#             */
+/*   Updated: 2024/01/20 19:04:06 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,13 +23,3 @@ int	ft_str_is_uppercase(char *str)
 	}
 	return (1);
 }
-
-/*
-#include <stdio.h>
-int main()
-{
-	printf("%d\n", ft_str_is_uppercase("ABCDEFGH"));
-	printf("%d\n", ft_str_is_uppercase("ABCDEFGHaI"));
-	printf("%d\n", ft_str_is_uppercase("-_134556ABCDEFGaH67"));
-}
-*/

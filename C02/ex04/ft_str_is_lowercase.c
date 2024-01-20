@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_is_lowercase.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bsuc <bsuc@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/07 20:28:51 by bsuc              #+#    #+#             */
-/*   Updated: 2023/09/10 18:14:26 by bsuc             ###   ########.fr       */
+/*   Created: 2023/09/07 20:28:51 by marvin            #+#    #+#             */
+/*   Updated: 2024/01/20 19:03:58 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,14 +23,3 @@ int	ft_str_is_lowercase(char *str)
 	}
 	return (1);
 }
-
-/*
-#include <stdio.h>
-
-int main()
-{
-	printf("%d\n", ft_str_is_lowercase("abcdefghijkl"));
-	printf("%d\n", ft_str_is_lowercase("abcAdefghijkl"));
-	printf("%d\n", ft_str_is_lowercase("-_134556efSghij67"));
-}
-*/

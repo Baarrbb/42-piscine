@@ -1,7 +1,40 @@
-# DAYS
-## SH00    100/100 <br />
-## SH01 92/100 <br />
-	(last exercise doesnt pass the Moulinette)
+### Piscine 42 Paris [04.09.2023 - 29.09.2023]
+
+
+
+
+| Day | Score | Date | Details |
+|:---:|:-----:|:----:|---------|
+| <a href="https://github.com/Baarrbb/42-piscine/tree/master/SH00">Shell 00</a> | <img src="https://badge.nimon.fr/api/v2/clxvo3eb3048601pgqc1udwjw/project/3287255"> | 05.09 | None |
+| <a href="https://github.com/Baarrbb/42-piscine/tree/master/SH01">Shell 01</a> | <img src="https://badge.nimon.fr/api/v2/clxvo3eb3048601pgqc1udwjw/project/3290022"> | 06.09 | None |
+| <a href="https://github.com/Baarrbb/42-piscine/tree/master/C00">C 00</a> | <img src="https://badge.nimon.fr/api/v2/clxvo3eb3048601pgqc1udwjw/project/3293940"> | 07.09 | [Details](#c00-85100-) |
+| <a href="https://github.com/Baarrbb/42-piscine/tree/master/C01">C 01</a> | <img src="https://badge.nimon.fr/api/v2/clxvo3eb3048601pgqc1udwjw/project/3297137"> | 07.09 | [Details](#c01-100100-) |
+| <a href="https://github.com/Baarrbb/42-piscine/tree/master/C02">C 02</a> | <img src="https://badge.nimon.fr/api/v2/clxvo3eb3048601pgqc1udwjw/project/3298247"> | 11.09 | [Details](#c02-85100-) |
+| <a href="https://github.com/Baarrbb/42-piscine/tree/master/C03">C 03</a> | <img src="https://badge.nimon.fr/api/v2/clxvo3eb3048601pgqc1udwjw/project/3301830"> | 16.09 | [Details](#c03-100100-) |
+| <a href="https://github.com/Baarrbb/42-piscine/tree/master/C04">C 04</a> | <img src="https://badge.nimon.fr/api/v2/clxvo3eb3048601pgqc1udwjw/project/3304515"> | 20.09 | [Details](#c04-100100-) |
+| <a href="https://github.com/Baarrbb/42-piscine/tree/master/C05">C 05</a> | <img src="https://badge.nimon.fr/api/v2/clxvo3eb3048601pgqc1udwjw/project/3317728"> | 19.09 | [Details](#c05-80100-) |
+| <a href="https://github.com/Baarrbb/42-piscine/tree/master/C06">C 06</a> | <img src="https://badge.nimon.fr/api/v2/clxvo3eb3048601pgqc1udwjw/project/3317738"> | 19.09 | [Details](#c06-100100-) |
+| <a href="https://github.com/Baarrbb/42-piscine/tree/master/C07">C 07</a> | <img src="https://badge.nimon.fr/api/v2/clxvo3eb3048601pgqc1udwjw/project/3322038"> | 24.09 | [Details](#c07-100100-) |
+| <a href="https://github.com/Baarrbb/42-piscine/tree/master/C08">C 08</a> | <img src="https://badge.nimon.fr/api/v2/clxvo3eb3048601pgqc1udwjw/project/3324099"> | 26.09 | [Details](#c08-100100-) |
+| <a href="https://github.com/Baarrbb/42-piscine/tree/master/C09">C 09</a> | <img src="https://badge.nimon.fr/api/v2/clxvo3eb3048601pgqc1udwjw/project/3331680"> | 26.09 | [Details](#c09-100100-) |
+| <a href="https://github.com/Baarrbb/42-piscine/tree/master/C10">C 10</a> |  |  |  |  |
+| <a href="https://github.com/Baarrbb/42-piscine/tree/master/C11">C 11</a> |  |  |  |  |
+| <a href="https://github.com/Baarrbb/42-piscine/tree/master/C12">C 12</a> |  |  |  |  |
+| <a href="https://github.com/Baarrbb/42-piscine/tree/master/C13">C 13</a> |  |  |  |  |
+| Rush 00 | <img src="https://badge.nimon.fr/api/v2/clxvo3eb3048601pgqc1udwjw/project/3299555"> | 10.09 |  |  |
+
+
+| Exam | Score | Date | Details |
+|------|-------|------|-----------|
+| Exam 00 | <img src="https://badge.nimon.fr/api/v2/clxvo3eb3048601pgqc1udwjw/project/3290909"> | 08.09 | None |
+| Exam 01 | <img src="https://badge.nimon.fr/api/v2/clxvo3eb3048601pgqc1udwjw/project/3309162"> | 15.09 | [Details](#exam_01-100100) |
+| Exam 02 | <img src="https://badge.nimon.fr/api/v2/clxvo3eb3048601pgqc1udwjw/project/3325316"> | 22.09 | [Details](#exam_02-90100) |
+| Exam 03 | <img src="https://badge.nimon.fr/api/v2/clxvo3eb3048601pgqc1udwjw/project/3335855"> | 29.09 | [Details](#exam_final-72100) |
+
+<br>
+<br>
+
+# Days
 ## C00 85/100 <br />
 	ft_putchar
 	ft_print_alphabet

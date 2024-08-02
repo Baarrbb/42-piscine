@@ -1,7 +1,4 @@
 
-![Piscine stats](https://badge.nimon.fr/api/v2/clxvo3eb3048601pgqc1udwjw/stats?cursusId=9&coalitionId=piscine)
-
-
 ### Piscine 42 Paris [04.09.2023 - 29.09.2023]
 
 | Day | Score | Date | Details |
